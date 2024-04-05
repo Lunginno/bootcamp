@@ -20,3 +20,13 @@ console.log(`Faculties are: ${faculty instanceof Array}`)
 console.log("Courses as String: " + faculty);
 console.log(typeof faculty);
 console.log(faculty.toUpperCase());
+
+let learners = new Array(); //Undefined arrays
+
+learners[0] = 1;
+learners [1] = 2;
+learners [2] = 3;
+learners [3] = 4;
+learners [4] = 5;
+
+console.log("Number of learners: ", learners.length)
